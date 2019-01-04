@@ -1,0 +1,1 @@
+../../../JMPhotoBrowser/JMPhotoBrowser/PhotoBrowserModel/PBAlbum.h

@@ -1,0 +1,1 @@
+../../../JMPhotoBrowser/JMPhotoBrowser/PhotoBrowserView/PBFooterView.h

@@ -7,41 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1533C8A65473E704827D8953 /* libPods-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BDFA74BDEE4F2BA81E2529B /* libPods-Demo.a */; };
 		ED198CC821DE0FA300143235 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED198CC721DE0FA300143235 /* AppDelegate.m */; };
 		ED198CCB21DE0FA300143235 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED198CCA21DE0FA300143235 /* ViewController.m */; };
 		ED198CCE21DE0FA300143235 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED198CCC21DE0FA300143235 /* Main.storyboard */; };
 		ED198CD021DE0FA500143235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED198CCF21DE0FA500143235 /* Assets.xcassets */; };
 		ED198CD321DE0FA500143235 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED198CD121DE0FA500143235 /* LaunchScreen.storyboard */; };
 		ED198CD621DE0FA500143235 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED198CD521DE0FA500143235 /* main.m */; };
-		ED198CFC21DE100300143235 /* PBPhotoDetailCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ED198CDF21DE100300143235 /* PBPhotoDetailCollectionViewCell.m */; };
-		ED198CFD21DE100300143235 /* PBAlbumTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ED198CE221DE100300143235 /* PBAlbumTableViewCell.m */; };
-		ED198CFE21DE100300143235 /* PBFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED198CE321DE100300143235 /* PBFooterView.m */; };
-		ED198CFF21DE100300143235 /* PBSmallPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ED198CE421DE100300143235 /* PBSmallPhotoCollectionViewCell.m */; };
-		ED198D0021DE100300143235 /* PBAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = ED198CE821DE100300143235 /* PBAlbum.m */; };
-		ED198D0121DE100300143235 /* PBPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = ED198CE921DE100300143235 /* PBPhoto.m */; };
-		ED198D0221DE100300143235 /* PBDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = ED198CEA21DE100300143235 /* PBDataHandler.m */; };
-		ED198D0321DE100300143235 /* PBPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED198CF021DE100300143235 /* PBPhotosViewController.m */; };
-		ED198D0421DE100300143235 /* PBPhotesDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED198CF321DE100300143235 /* PBPhotesDetailViewController.m */; };
-		ED198D0521DE100300143235 /* PBAlbumsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED198CF421DE100300143235 /* PBAlbumsViewController.m */; };
-		ED198D0621DE100300143235 /* JMPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = ED198CF621DE100300143235 /* JMPhotoBrowser.m */; };
-		ED198D0721DE100300143235 /* pb_xuanzhong@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED198CF821DE100300143235 /* pb_xuanzhong@2x.png */; };
-		ED198D0821DE100300143235 /* pb_weixuanzhong@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED198CF921DE100300143235 /* pb_weixuanzhong@2x.png */; };
-		ED198D0921DE100300143235 /* check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED198CFA21DE100300143235 /* check@2x.png */; };
-		ED198D0A21DE100300143235 /* JMPhotoRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = ED198CFB21DE100300143235 /* JMPhotoRequest.m */; };
-		ED198D1021DE101A00143235 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = ED198D0C21DE101A00143235 /* MBProgressHUD.m */; };
-		ED198D2D21DE12E800143235 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = ED198D1521DE12E700143235 /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		ED198D2E21DE12E800143235 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = ED198D1E21DE12E800143235 /* ViewController+MASAdditions.m */; };
-		ED198D2F21DE12E800143235 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = ED198D2221DE12E800143235 /* MASCompositeConstraint.m */; };
-		ED198D3021DE12E800143235 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = ED198D2321DE12E800143235 /* MASConstraintMaker.m */; };
-		ED198D3121DE12E800143235 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = ED198D2421DE12E800143235 /* MASLayoutConstraint.m */; };
-		ED198D3221DE12E800143235 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = ED198D2521DE12E800143235 /* NSArray+MASAdditions.m */; };
-		ED198D3321DE12E800143235 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = ED198D2621DE12E800143235 /* View+MASAdditions.m */; };
-		ED198D3421DE12E800143235 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = ED198D2921DE12E800143235 /* MASConstraint.m */; };
-		ED198D3521DE12E800143235 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = ED198D2B21DE12E800143235 /* MASViewConstraint.m */; };
-		ED198D3621DE12E800143235 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = ED198D2C21DE12E800143235 /* MASViewAttribute.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6BDFA74BDEE4F2BA81E2529B /* libPods-Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C777F16CB3FD7055F4BE432C /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		CD3E7236C2164C969E2B0315 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		ED198CC321DE0FA300143235 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED198CC621DE0FA300143235 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ED198CC721DE0FA300143235 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -52,60 +30,6 @@
 		ED198CD221DE0FA500143235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED198CD421DE0FA500143235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED198CD521DE0FA500143235 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		ED198CDE21DE100300143235 /* PBAlbumTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBAlbumTableViewCell.h; sourceTree = "<group>"; };
-		ED198CDF21DE100300143235 /* PBPhotoDetailCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBPhotoDetailCollectionViewCell.m; sourceTree = "<group>"; };
-		ED198CE021DE100300143235 /* PBSmallPhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSmallPhotoCollectionViewCell.h; sourceTree = "<group>"; };
-		ED198CE121DE100300143235 /* PBFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBFooterView.h; sourceTree = "<group>"; };
-		ED198CE221DE100300143235 /* PBAlbumTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBAlbumTableViewCell.m; sourceTree = "<group>"; };
-		ED198CE321DE100300143235 /* PBFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBFooterView.m; sourceTree = "<group>"; };
-		ED198CE421DE100300143235 /* PBSmallPhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSmallPhotoCollectionViewCell.m; sourceTree = "<group>"; };
-		ED198CE521DE100300143235 /* PBPhotoDetailCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBPhotoDetailCollectionViewCell.h; sourceTree = "<group>"; };
-		ED198CE621DE100300143235 /* JMPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMPhotoBrowser.h; sourceTree = "<group>"; };
-		ED198CE821DE100300143235 /* PBAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBAlbum.m; sourceTree = "<group>"; };
-		ED198CE921DE100300143235 /* PBPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBPhoto.m; sourceTree = "<group>"; };
-		ED198CEA21DE100300143235 /* PBDataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBDataHandler.m; sourceTree = "<group>"; };
-		ED198CEB21DE100300143235 /* PBPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBPhoto.h; sourceTree = "<group>"; };
-		ED198CEC21DE100300143235 /* PBAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBAlbum.h; sourceTree = "<group>"; };
-		ED198CED21DE100300143235 /* PBDataHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBDataHandler.h; sourceTree = "<group>"; };
-		ED198CEF21DE100300143235 /* PBPhotesDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBPhotesDetailViewController.h; sourceTree = "<group>"; };
-		ED198CF021DE100300143235 /* PBPhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBPhotosViewController.m; sourceTree = "<group>"; };
-		ED198CF121DE100300143235 /* PBAlbumsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBAlbumsViewController.h; sourceTree = "<group>"; };
-		ED198CF221DE100300143235 /* PBPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBPhotosViewController.h; sourceTree = "<group>"; };
-		ED198CF321DE100300143235 /* PBPhotesDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBPhotesDetailViewController.m; sourceTree = "<group>"; };
-		ED198CF421DE100300143235 /* PBAlbumsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBAlbumsViewController.m; sourceTree = "<group>"; };
-		ED198CF521DE100300143235 /* JMPhotoRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMPhotoRequest.h; sourceTree = "<group>"; };
-		ED198CF621DE100300143235 /* JMPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMPhotoBrowser.m; sourceTree = "<group>"; };
-		ED198CF821DE100300143235 /* pb_xuanzhong@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pb_xuanzhong@2x.png"; sourceTree = "<group>"; };
-		ED198CF921DE100300143235 /* pb_weixuanzhong@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pb_weixuanzhong@2x.png"; sourceTree = "<group>"; };
-		ED198CFA21DE100300143235 /* check@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check@2x.png"; sourceTree = "<group>"; };
-		ED198CFB21DE100300143235 /* JMPhotoRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMPhotoRequest.m; sourceTree = "<group>"; };
-		ED198D0C21DE101A00143235 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		ED198D0E21DE101A00143235 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		ED198D1421DE12E700143235 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
-		ED198D1521DE12E700143235 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		ED198D1621DE12E700143235 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
-		ED198D1721DE12E700143235 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
-		ED198D1821DE12E700143235 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		ED198D1921DE12E700143235 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
-		ED198D1A21DE12E800143235 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
-		ED198D1B21DE12E800143235 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		ED198D1C21DE12E800143235 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
-		ED198D1D21DE12E800143235 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
-		ED198D1E21DE12E800143235 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		ED198D1F21DE12E800143235 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
-		ED198D2021DE12E800143235 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
-		ED198D2121DE12E800143235 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		ED198D2221DE12E800143235 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
-		ED198D2321DE12E800143235 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
-		ED198D2421DE12E800143235 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
-		ED198D2521DE12E800143235 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		ED198D2621DE12E800143235 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
-		ED198D2721DE12E800143235 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		ED198D2821DE12E800143235 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
-		ED198D2921DE12E800143235 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
-		ED198D2A21DE12E800143235 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
-		ED198D2B21DE12E800143235 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
-		ED198D2C21DE12E800143235 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1533C8A65473E704827D8953 /* libPods-Demo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9040D9D8E28072264AE17ED1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C777F16CB3FD7055F4BE432C /* Pods-Demo.debug.xcconfig */,
+				CD3E7236C2164C969E2B0315 /* Pods-Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ECFC898E3689A8690D04D114 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BDFA74BDEE4F2BA81E2529B /* libPods-Demo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ED198CBA21DE0FA300143235 = {
 			isa = PBXGroup;
 			children = (
 				ED198CC521DE0FA300143235 /* Demo */,
 				ED198CC421DE0FA300143235 /* Products */,
+				9040D9D8E28072264AE17ED1 /* Pods */,
+				ECFC898E3689A8690D04D114 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -142,9 +86,6 @@
 				ED198CC721DE0FA300143235 /* AppDelegate.m */,
 				ED198CC921DE0FA300143235 /* ViewController.h */,
 				ED198CCA21DE0FA300143235 /* ViewController.m */,
-				ED198CDC21DE100300143235 /* JMPhotoBrowser */,
-				ED198D0B21DE101A00143235 /* MBProgressHUD */,
-				ED198D1321DE12E700143235 /* Masonry */,
 				ED198CCC21DE0FA300143235 /* Main.storyboard */,
 				ED198CCF21DE0FA500143235 /* Assets.xcassets */,
 				ED198CD121DE0FA500143235 /* LaunchScreen.storyboard */,
@@ -154,113 +95,6 @@
 			path = Demo;
 			sourceTree = "<group>";
 		};
-		ED198CDC21DE100300143235 /* JMPhotoBrowser */ = {
-			isa = PBXGroup;
-			children = (
-				ED198CE621DE100300143235 /* JMPhotoBrowser.h */,
-				ED198CF621DE100300143235 /* JMPhotoBrowser.m */,
-				ED198CF521DE100300143235 /* JMPhotoRequest.h */,
-				ED198CFB21DE100300143235 /* JMPhotoRequest.m */,
-				ED198CEE21DE100300143235 /* PhotoBrowserController */,
-				ED198CE721DE100300143235 /* PhotoBrowserModel */,
-				ED198CDD21DE100300143235 /* PhotoBrowserView */,
-				ED198CF721DE100300143235 /* Resource */,
-			);
-			path = JMPhotoBrowser;
-			sourceTree = "<group>";
-		};
-		ED198CDD21DE100300143235 /* PhotoBrowserView */ = {
-			isa = PBXGroup;
-			children = (
-				ED198CDE21DE100300143235 /* PBAlbumTableViewCell.h */,
-				ED198CE221DE100300143235 /* PBAlbumTableViewCell.m */,
-				ED198CE021DE100300143235 /* PBSmallPhotoCollectionViewCell.h */,
-				ED198CE421DE100300143235 /* PBSmallPhotoCollectionViewCell.m */,
-				ED198CE521DE100300143235 /* PBPhotoDetailCollectionViewCell.h */,
-				ED198CDF21DE100300143235 /* PBPhotoDetailCollectionViewCell.m */,
-				ED198CE121DE100300143235 /* PBFooterView.h */,
-				ED198CE321DE100300143235 /* PBFooterView.m */,
-			);
-			path = PhotoBrowserView;
-			sourceTree = "<group>";
-		};
-		ED198CE721DE100300143235 /* PhotoBrowserModel */ = {
-			isa = PBXGroup;
-			children = (
-				ED198CEC21DE100300143235 /* PBAlbum.h */,
-				ED198CE821DE100300143235 /* PBAlbum.m */,
-				ED198CEB21DE100300143235 /* PBPhoto.h */,
-				ED198CE921DE100300143235 /* PBPhoto.m */,
-				ED198CED21DE100300143235 /* PBDataHandler.h */,
-				ED198CEA21DE100300143235 /* PBDataHandler.m */,
-			);
-			path = PhotoBrowserModel;
-			sourceTree = "<group>";
-		};
-		ED198CEE21DE100300143235 /* PhotoBrowserController */ = {
-			isa = PBXGroup;
-			children = (
-				ED198CF121DE100300143235 /* PBAlbumsViewController.h */,
-				ED198CF421DE100300143235 /* PBAlbumsViewController.m */,
-				ED198CF221DE100300143235 /* PBPhotosViewController.h */,
-				ED198CF021DE100300143235 /* PBPhotosViewController.m */,
-				ED198CEF21DE100300143235 /* PBPhotesDetailViewController.h */,
-				ED198CF321DE100300143235 /* PBPhotesDetailViewController.m */,
-			);
-			path = PhotoBrowserController;
-			sourceTree = "<group>";
-		};
-		ED198CF721DE100300143235 /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				ED198CF821DE100300143235 /* pb_xuanzhong@2x.png */,
-				ED198CF921DE100300143235 /* pb_weixuanzhong@2x.png */,
-				ED198CFA21DE100300143235 /* check@2x.png */,
-			);
-			path = Resource;
-			sourceTree = "<group>";
-		};
-		ED198D0B21DE101A00143235 /* MBProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				ED198D0C21DE101A00143235 /* MBProgressHUD.m */,
-				ED198D0E21DE101A00143235 /* MBProgressHUD.h */,
-			);
-			path = MBProgressHUD;
-			sourceTree = "<group>";
-		};
-		ED198D1321DE12E700143235 /* Masonry */ = {
-			isa = PBXGroup;
-			children = (
-				ED198D1421DE12E700143235 /* MASCompositeConstraint.h */,
-				ED198D1521DE12E700143235 /* NSLayoutConstraint+MASDebugAdditions.m */,
-				ED198D1621DE12E700143235 /* MASConstraint+Private.h */,
-				ED198D1721DE12E700143235 /* MASLayoutConstraint.h */,
-				ED198D1821DE12E700143235 /* NSArray+MASShorthandAdditions.h */,
-				ED198D1921DE12E700143235 /* MASConstraintMaker.h */,
-				ED198D1A21DE12E800143235 /* View+MASAdditions.h */,
-				ED198D1B21DE12E800143235 /* NSArray+MASAdditions.h */,
-				ED198D1C21DE12E800143235 /* MASUtilities.h */,
-				ED198D1D21DE12E800143235 /* MASViewAttribute.h */,
-				ED198D1E21DE12E800143235 /* ViewController+MASAdditions.m */,
-				ED198D1F21DE12E800143235 /* MASViewConstraint.h */,
-				ED198D2021DE12E800143235 /* MASConstraint.h */,
-				ED198D2121DE12E800143235 /* NSLayoutConstraint+MASDebugAdditions.h */,
-				ED198D2221DE12E800143235 /* MASCompositeConstraint.m */,
-				ED198D2321DE12E800143235 /* MASConstraintMaker.m */,
-				ED198D2421DE12E800143235 /* MASLayoutConstraint.m */,
-				ED198D2521DE12E800143235 /* NSArray+MASAdditions.m */,
-				ED198D2621DE12E800143235 /* View+MASAdditions.m */,
-				ED198D2721DE12E800143235 /* View+MASShorthandAdditions.h */,
-				ED198D2821DE12E800143235 /* Masonry.h */,
-				ED198D2921DE12E800143235 /* MASConstraint.m */,
-				ED198D2A21DE12E800143235 /* ViewController+MASAdditions.h */,
-				ED198D2B21DE12E800143235 /* MASViewConstraint.m */,
-				ED198D2C21DE12E800143235 /* MASViewAttribute.m */,
-			);
-			path = Masonry;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -268,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED198CD921DE0FA500143235 /* Build configuration list for PBXNativeTarget "Demo" */;
 			buildPhases = (
+				46700FC12478E783772D7E04 /* [CP] Check Pods Manifest.lock */,
 				ED198CBF21DE0FA300143235 /* Sources */,
 				ED198CC021DE0FA300143235 /* Frameworks */,
 				ED198CC121DE0FA300143235 /* Resources */,
+				9EEE1D8EEF146DF7542D5CBA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -320,46 +156,63 @@
 			files = (
 				ED198CD321DE0FA500143235 /* LaunchScreen.storyboard in Resources */,
 				ED198CD021DE0FA500143235 /* Assets.xcassets in Resources */,
-				ED198D0821DE100300143235 /* pb_weixuanzhong@2x.png in Resources */,
 				ED198CCE21DE0FA300143235 /* Main.storyboard in Resources */,
-				ED198D0721DE100300143235 /* pb_xuanzhong@2x.png in Resources */,
-				ED198D0921DE100300143235 /* check@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46700FC12478E783772D7E04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EEE1D8EEF146DF7542D5CBA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Demo/Pods-Demo-resources.sh",
+				"${PODS_ROOT}/JMPhotoBrowser/JMPhotoBrowser/Resource/check@2x.png",
+				"${PODS_ROOT}/JMPhotoBrowser/JMPhotoBrowser/Resource/pb_weixuanzhong@2x.png",
+				"${PODS_ROOT}/JMPhotoBrowser/JMPhotoBrowser/Resource/pb_xuanzhong@2x.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/check@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pb_weixuanzhong@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pb_xuanzhong@2x.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Demo/Pods-Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ED198CBF21DE0FA300143235 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED198D0521DE100300143235 /* PBAlbumsViewController.m in Sources */,
-				ED198D3021DE12E800143235 /* MASConstraintMaker.m in Sources */,
-				ED198D0421DE100300143235 /* PBPhotesDetailViewController.m in Sources */,
-				ED198D0321DE100300143235 /* PBPhotosViewController.m in Sources */,
 				ED198CCB21DE0FA300143235 /* ViewController.m in Sources */,
-				ED198D0121DE100300143235 /* PBPhoto.m in Sources */,
-				ED198D2F21DE12E800143235 /* MASCompositeConstraint.m in Sources */,
 				ED198CD621DE0FA500143235 /* main.m in Sources */,
-				ED198D3421DE12E800143235 /* MASConstraint.m in Sources */,
-				ED198D3321DE12E800143235 /* View+MASAdditions.m in Sources */,
-				ED198CFD21DE100300143235 /* PBAlbumTableViewCell.m in Sources */,
-				ED198CFC21DE100300143235 /* PBPhotoDetailCollectionViewCell.m in Sources */,
-				ED198D3121DE12E800143235 /* MASLayoutConstraint.m in Sources */,
-				ED198CFF21DE100300143235 /* PBSmallPhotoCollectionViewCell.m in Sources */,
-				ED198D0221DE100300143235 /* PBDataHandler.m in Sources */,
-				ED198D3521DE12E800143235 /* MASViewConstraint.m in Sources */,
 				ED198CC821DE0FA300143235 /* AppDelegate.m in Sources */,
-				ED198D0A21DE100300143235 /* JMPhotoRequest.m in Sources */,
-				ED198CFE21DE100300143235 /* PBFooterView.m in Sources */,
-				ED198D3221DE12E800143235 /* NSArray+MASAdditions.m in Sources */,
-				ED198D2D21DE12E800143235 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				ED198D2E21DE12E800143235 /* ViewController+MASAdditions.m in Sources */,
-				ED198D0621DE100300143235 /* JMPhotoBrowser.m in Sources */,
-				ED198D0021DE100300143235 /* PBAlbum.m in Sources */,
-				ED198D1021DE101A00143235 /* MBProgressHUD.m in Sources */,
-				ED198D3621DE12E800143235 /* MASViewAttribute.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,6 +352,7 @@
 		};
 		ED198CDA21DE0FA500143235 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C777F16CB3FD7055F4BE432C /* Pods-Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -518,6 +372,7 @@
 		};
 		ED198CDB21DE0FA500143235 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD3E7236C2164C969E2B0315 /* Pods-Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
