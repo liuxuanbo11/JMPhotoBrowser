@@ -4,5 +4,6 @@
 详情图片仿照了微信的功能  
 获取系统图片使用了多线程加快速度  
 
+
 使用：
-cocoapods: pod 'JMPhotoBrowser'  
+CocoaPods: pod 'JMPhotoBrowser'  
